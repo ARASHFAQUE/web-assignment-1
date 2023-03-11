@@ -11,7 +11,7 @@ form {
     background: rgba(0, 0, 0, 0.7);
     padding: 20px;
     max-width: 600px;
-    max-height: 600px;
+    max-height: 700px;
     margin: 50px auto;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
@@ -32,6 +32,8 @@ form {
     font-size: 16px;
 }
 
+
+
 .field-label {
     margin-bottom: 5px;
     font-weight: bold;
@@ -40,9 +42,11 @@ form {
 }
 
 input[type="radio"],
-input[type="checkbox"] {
+input[type="checkbox"],
+input[type="file"] {
     margin: 20px;
 }
+
 
 select {
     padding: 10px;
@@ -69,7 +73,7 @@ input[type="submit"] {
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.5s ease;
-    margin-left: 220px;
+    margin-left: 200px;
     margin-top: 10px;
 }
 
