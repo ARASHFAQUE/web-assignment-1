@@ -10,17 +10,21 @@ body {
 form {
     background: rgba(0, 0, 0, 0.7);
     padding: 20px;
-    max-width: 700px;
-    max-height: 700px;
+    max-width: 600px;
+    max-height: 600px;
     margin: 50px auto;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .form-control {
     padding: 10px;
     margin: 15px;
-    width: 70%;
+    width: 60%;
     border-radius: 5px;
     border: none;
     background: #eee;
@@ -31,6 +35,8 @@ form {
 .field-label {
     margin-bottom: 5px;
     font-weight: bold;
+    font-weight: bold;
+    width: 30%;
 }
 
 input[type="radio"],
@@ -41,7 +47,7 @@ input[type="checkbox"] {
 select {
     padding: 10px;
     margin: 15px;
-    width: 70%;
+    width: 64%;
     border-radius: 5px;
     border: none;
     background: #eee;
