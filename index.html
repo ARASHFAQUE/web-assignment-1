@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Information Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form>
+        <label class="field-label">First Name:</label>
+        <input type="text" class="form-control" placeholder="First Name" required>
+        <br>
+
+        <label class="field-label">Last Name:</label>
+        <input type="text" class="form-control" placeholder="Last Name" required>
+        <br>
+
+        <label class="field-label">Email:</label>
+        <input type="email" class="form-control" placeholder="Email" required>
+        <br>
+
+        <label class="field-label">Password:</label>
+        <input type="password" class="form-control" placeholder="Password" required>
+        <br>
+
+        <label class="field-label">Date of Birth:</label>
+        <input type="date" class="form-control" name="dateofbirth" required>
+        <br>
+
+        <label class="field-label">City:</label>
+        <select id="city" name="city">
+            <option value="sylhet">Sylhet</option>
+            <option value="dhaka">Dhaka</option>
+            <option value="rajsahi">Rajsahi</option>
+            <option value="khulna">Khulna</option>
+        </select>
+        <br>
+
+        <label class="field-label">Gender:</label>
+        <label><input type="radio" name="gender" value="male">Male</label>
+        <label><input type="radio" name="gender" value="female">Female</label>
+        <label><input type="radio" name="gender" value="other">Other</label>
+
+        <br>
+
+
+        <label class="field-label">Degree:</label>
+        <label><input type="checkbox" name="checkbox[]" value="ssc">SSC</label>
+        <label><input type="checkbox" name="checkbox[]" value="hsc">HSC</label>
+        <label><input type="checkbox" name="checkbox[]" value="bsc">B. Sc.</label>
+
+        <br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+
+</html>

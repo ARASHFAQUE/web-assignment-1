@@ -1,0 +1,72 @@
+body {
+    background: url('images/background.gif') no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: #fff;
+}
+
+form {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    max-width: 700px;
+    max-height: 700px;
+    margin: 50px auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.form-control {
+    padding: 10px;
+    margin: 15px;
+    width: 70%;
+    border-radius: 5px;
+    border: none;
+    background: #eee;
+    color: #444;
+    font-size: 16px;
+}
+
+.field-label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin: 20px;
+}
+
+select {
+    padding: 10px;
+    margin: 15px;
+    width: 70%;
+    border-radius: 5px;
+    border: none;
+    background: #eee;
+    color: #444;
+    font-size: 16px;
+    height: 40px;
+    overflow-y: scroll;
+}
+
+
+input[type="submit"] {
+    padding: 10px 20px;
+    border: none;
+    background: green;
+    color: white;
+    width: 200px;
+    height: 40px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+    margin-left: 220px;
+    margin-top: 10px;
+}
+
+input[type="submit"]:hover {
+    background-color: blue;
+}
